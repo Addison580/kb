@@ -1,0 +1,25 @@
+h3{
+    font-size: 20px;
+
+}
+
+canvas{
+    animation-name: Addison;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Addison{
+from{box-shadow: 1px 1px 38px blue;}
+to{box-shadow: 1px 1px 38px red;}
+}
+
+.footer{
+   position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+    color: black;
+}
